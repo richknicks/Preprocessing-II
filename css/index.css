@@ -1,3 +1,12 @@
+button {
+  border: 1px solid black;
+  padding: 10px 0;
+  width: 65%;
+  background-color: lightslategray;
+  color: white;
+  font-size: 1.7rem;
+  border-radius: 12px;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -192,6 +201,7 @@ nav a {
 .home header {
   width: 100%;
   background-color: darksalmon;
+  border: 1px solid black;
 }
 .home header h1 {
   text-align: center;
