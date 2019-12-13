@@ -81,6 +81,10 @@
   .inverse-content {
     padding-bottom: 30px;
     border-bottom: 2px dashed @navigation-border;
+    @media @mobile {
+      display: flex;
+      flex-direction: column-reverse;
+    }
 
     .text-content {
       padding-left: 1%;
@@ -122,9 +126,9 @@
       width: 30%;
       margin-bottom: 30px;
       @media @mobile {
-        margin: 0 0 30px 32px;
+        padding: 0 35px 5px;
         width: 100%;
-        line-height: 50px;
+        
         
       }
     }
